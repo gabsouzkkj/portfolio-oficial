@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Philippe | Design + Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body class="bg-[#101110] text-white min-h-screen flex flex-col md:flex-row relative">
+    <aside class="md:pl-[2rem] py-8 flex flex-row md:flex-col justify-between items-center md:fixed md:left-0 md:top-0 md:bottom-0 z-30 w-full md:w-auto bg-[#101110] md:bg-transparent">
+        <div class="text-3xl font-extrabold">
+            <img src="images/logo.svg" class="w-10 md:w-auto">
+        </div>
+
+        <nav class="flex md:flex-col items-center text-gray-400 space-x-4 md:space-x-0 md:space-y-8 font-semibold">
+            <a href="#projetos" class="md:[writing-mode:vertical-rl] md:rotate-180 hover:text-purple-400 transition">PROJETOS</a>
+            <a href="#certificacao" class="md:[writing-mode:vertical-rl] md:rotate-180 hover:text-purple-400 transition">CERTIFICAÇÕES</a>
+            <a href="#sobremim" class="md:[writing-mode:vertical-rl] md:rotate-180 hover:text-purple-400 transition">SOBRE MIM</a>
+        </nav>
+
+        <div class="flex md:flex-col items-center space-x-4 md:space-x-0 md:space-y-6 text-gray-400 text-2xl">
+            <a href="https://github.com/gabsouzkkj" target="_blank" class="hover:text-[#C084FC] transition">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6 md:w-7 md:h-7">
+                    <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.6-3.9-1.6-.5-1.3-1.1-1.6-1.1-1.6-.9-.6.1-.6.1-.6 1 .1 1.5 1.1 1.5 1.1.9 1.5 2.4 1.1 3 .8.1-.7.3-1.1.6-1.4-2.6-.3-5.4-1.3-5.4-5.8 0-1.3.5-2.4 1.1-3.2-.1-.3-.5-1.6.1-3.3 0 0 .9-.3 3.3 1.1a11.6 11.6 0 0 1 6 0c2.4-1.4 3.3-1.1 3.3-1.1.6 1.7.2 3 .1 3.3.7.8 1.1 1.9 1.1 3.2 0 4.5-2.8 5.5-5.4 5.8.4.3.7.9.7 1.8v2.7c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.65 18.35.5 12 .5z"/>
+                </svg>
+            </a>
+            <a href="https://linkedin.com/in/gabsouz" target="_blank" class="hover:text-[#C084FC] transition">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6 md:w-7 md:h-7">
+                    <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 8.98h4v12.02H3V8.98zM9.5 8.98h3.8v1.6h.1c.5-.9 1.8-1.8 3.7-1.8 3.9 0 4.6 2.5 4.6 5.7v6.5h-4v-5.8c0-1.4 0-3.2-2-3.2-2 0-2.3 1.5-2.3 3.1v5.9h-4V8.98z"/>
+                </svg>
+            </a>
+        </div>
+    </aside>
+
+    <main class="flex-1 md:ml-[6rem] w-full z-20">
+        <section id="vanta-bg" class="min-h-screen flex items-center px-6 py-12 md:py-0 relative">
+            <div id="vanta-container" class="w-screen h-screen absolute top-0 left-0 overflow-hidden z-0"></div>
+            <div class="overlay-gradient absolute top-0 left-0 w-full h-full z-10"></div>
+            <div class="content-overlay relative z-20" data-aos="fade-up">
+                <h3 class="text-gray-400 tracking-[0.3em] font-semibold text-[1.2rem] md:text-[1.5rem] mb-4">GABRIEL PHILIPPE</h3>
+                <h1 class="text-5xl md:text-[6.5rem] font-semibold ">
+                    Designer <span class="linha"></span><br>+<span class="text-purple-400">Developer</span>
+                </h1>
+            </div>
+        </section>
+
+        <section id="projetos" class="min-h-screen flex flex-col justify-center px-6 py-12 md:py-20">
+            <h2 class="text-4xl md:text-5xl font-semibold text-white mb-8 md:mb-12 text-center" data-aos="fade-up">Projetos</h2>
+            <div class="max-w-6xl mx-auto">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                    <div class="bg-[#1E1E1E] rounded-2xl p-6 hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="100">
+                        <img src="images/think.png" class="rounded-xl mb-4 w-full h-42 object-cover">
+                        <h3 class="text-2xl font-semibold mb-2">Think</h3>
+                        <p class="text-gray-400 mb-4">Think é um aplicativo educacional gamificado que utiliza inteligência artificial para personalizar o aprendizado. Por meio de quizzes, desafios e recompensas, a IA adapta o conteúdo ao ritmo e nível de cada usuário, tornando o estudo mais envolvente, eficiente e motivador.</p>
+                        <div class="mt-4 flex flex-wrap gap-3">
+                            <img src="https://img.icons8.com/color/48/figma.png"class="w-8 h-8">
+                        </div>
+                    </div>
+
+                    <div class="bg-[#1E1E1E] rounded-2xl p-6 hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="200">
+                        <img src="images/kratosfit.svg" class="rounded-xl mb-4 w-full h-42 object-cover">
+                        <h3 class="text-2xl font-semibold mb-2">TCC: Kratos FIT</h3>
+                        <p class="text-gray-400 mb-4">Kratos Fit é um aplicativo e site de academia que transforma a maneira como as pessoas treinam. Inspirado na força e no mito de Kratos, nossa plataforma combina treinamento personalizado e acompanhamento de dados com um sistema de suporte direto de personal trainers. Nosso objetivo é oferecer uma experiência de treino completa, motivando cada usuário a alcançar sua melhor versão e superar seus limites. Com o Kratos Fit, sua jornada de fitness é mais inteligente, conectada e focada em resultados reais.</p>
+                        <div class="mt-4 flex flex-wrap gap-3">
+                            <img src="https://img.icons8.com/color/48/figma.png"class="w-8 h-8">
+                            <img src="https://img.icons8.com/color/48/html-5--v1.png"class="w-8 h-8">
+                            <img src="https://img.icons8.com/color/48/css3.png" class="w-8 h-8">
+                            <img src="https://iconape.com/wp-content/files/yb/61798/png/flutter-logo.png" class="w-8 h-8">
+                            <img src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" class="w-8 h-8">
+                            <img src="https://img.icons8.com/color/48/nodejs.png" class="w-8 h-8">
+                        </div>
+                        <a href="https://www.figma.com/design/whNKvtMCu7F4hjJrtFQej8/Kratos-FIT---Figma?node-id=1-2&t=XtGKD6VaB66lXVX8-1" class="text-purple-400 font-semibold hover:underline mt-4 inline-block">Ver figma →</a>
+                    </div>
+
+                    <div class="bg-[#1E1E1E] rounded-2xl p-6 hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="300">
+                        <img src="images/transfer.svg" class="rounded-xl mb-4 w-full h-42 object-cover">
+                        <h3 class="text-2xl font-semibold mb-2">Amaury: Transfer Milagre</h3>
+                        <p class="text-gray-400 mb-4">Amaury: Transfer Milagre é um site focado em seu serviço de transfer exclusivo (via whatsapp) focado em oferecer uma experiência completa e tranquila em Barra de Camaragibe, Alagoas. Cuidamos do seu transporte e oferecemos roteiros turísticos personalizados, garantindo que sua única preocupação seja aproveitar as belezas naturais da região.</p>
+                        <div class="mt-4 flex flex-wrap gap-3">
+                            <img src="https://img.icons8.com/color/48/figma.png"class="w-8 h-8">
+                            <img src="https://img.icons8.com/color/48/html-5--v1.png"class="w-8 h-8">
+                            <img src="https://img.icons8.com/color/48/css3.png" class="w-8 h-8">
+                            <img src="https://www.freepnglogos.com/uploads/php-logo-png/php-logo-parental-advisory-explicit-content-logo-png-transparent-3.png" class="w-8 h-8">
+                            <img src="./images/hostinger.svg" class="w-8 h-8">
+                        </div>
+                        <a href="https://amaurytaxitransfermilagres.com/" class="text-purple-400 font-semibold hover:underline mt-4 inline-block">Ver site →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proficiencia" class="min-h-[33vh] flex flex-col justify-center px-6 py-12 md:py-20">
+            <h2 class="text-4xl md:text-5xl font-semibold text-white mb-8 md:mb-12 text-center" data-aos="fade-up">Proficiência</h2>
+            <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-20">
+                <div class="w-full md:w-1/2 space-y-8" data-aos="fade-right" data-aos-delay="100">
+                    <div class="flex flex-col gap-2">
+                        <h3 class="text-xl font-semibold text-white">Frontend/Design</h3>
+                        <div class="w-full bg-gray-700 rounded-full h-4">
+                            <div class="bg-purple-400 h-4 rounded-full" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h3 class="text-xl font-semibold text-white">Backend</h3>
+                        <div class="w-full bg-gray-700 rounded-full h-4">
+                            <div class="bg-purple-400 h-4 rounded-full" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h3 class="text-xl font-semibold text-white">Programming</h3>
+                        <div class="w-full bg-gray-700 rounded-full h-4">
+                            <div class="bg-purple-400 h-4 rounded-full" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 flex justify-center items-center p-4" data-aos="fade-left" data-aos-delay="200">
+                    <img src="images/proficiencia.svg" class="w-full max-w-sm md:max-w-md">
+                </div>
+            </div>
+        </section>
+
+        <section id="certificacao" class="min-h-screen flex flex-col justify-center px-6 py-12 md:py-20">
+            <h2 class="text-4xl md:text-5xl font-semibold text-white mb-4 text-center" data-aos="fade-up">Certificações e Conquistas <span class="text-3xl">🏆</span></h2>
+            <p class="text-gray-400 text-lg mb-8 md:mb-12 text-center" data-aos="fade-up" data-aos-delay="100">
+                Certificações, reconhecimentos, prêmios e alguns feitos notáveis que realizei!
+            </p>
+            <div class="max-w-7xl mx-auto">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+                    <div class="bg-[#1E1E1E] rounded-2xl p-6 flex flex-col items-center text-center hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://api.elos.prd.senai.br/files/c54ff0fd-fbbf-4c1f-bfd4-9290d8167300" class="rounded-xl mb-4 w-32 h-32 object-contain">
+                        <h3 class="text-2xl font-semibold mb-2">3° Lugar no Grand Prix de Inovaçaõ Senai</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Ter obtido a terceira maior pontuação no julgamento da banca avaliadora do Grand Prix SENAI de Inovação</p>
+                        <div class="mt-auto">
+                            <a href="https://drive.google.com/file/d/1zy74GE993oqdnuau8iHz1jL_DxyCAYDw/view" class="text-purple-400 text-sm font-semibold hover:underline">Ver certificação →</a>
+                        </div>
+                    </div>
+                    <div class="bg-[#1E1E1E] rounded-2xl p-6 flex flex-col items-center text-center hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://images.credly.com/size/160x160/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png"class="rounded-xl mb-4 w-32 h-32 object-contain">
+                        <h3 class="text-2xl font-semibold mb-2">CCNA: Introduction to Networks</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Certificação de estudante Cisco que comprova conhecimentos fundamentais em redes, incluindo endereçamento IP, protocolos Ethernet e configuração prática de switches e roteadores. Inclui experiência hands-on com até 54 laboratórios.</p>
+                        <div class="mt-auto">
+                            <a href="https://www.credly.com/badges/49d592ba-c3fa-43cd-9742-66bc45df0451/public_url" class="text-purple-400 text-sm font-semibold hover:underline">Ver certificação →</a>
+                        </div>
+                    </div>
+                    <div class="bg-[#1E1E1E] rounded-2xl p-6 flex flex-col items-center text-center hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://images.credly.com/size/160x160/images/04e8034c-81f5-4f7f-ab23-e8b428c31ce9/ITE.png" class="rounded-xl mb-4 w-32 h-32 object-contain">
+                        <h3 class="text-2xl font-semibold mb-2">IT Essentials</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Certificação de estudante Cisco que valida conhecimentos essenciais em TI, incluindo hardware, software, sistemas operacionais, redes, dispositivos móveis e troubleshooting. Comprova experiência prática com até 128 atividades e 26 horas de laboratório.</p>
+                        <div class="mt-auto">
+                            <a href="https://www.credly.com/badges/5625a1cb-1cdd-43a7-8eae-2c9577eed6d4/public_url" class="text-purple-400 text-sm font-semibold hover:underline">Ver certificação →</a>
+                        </div>
+                    </div>
+                    <div class="bg-[#1E1E1E] rounded-2xl p-6 flex flex-col items-center text-center hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="400">
+                        <img src="https://images.credly.com/size/160x160/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png" class="rounded-xl mb-4 w-32 h-32 object-contain">
+                        <h3 class="text-2xl font-semibold mb-2">AWS Academy Graduate - AWS Academy Cloud Foundations</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Portadores deste certificado concluíram o curso AWS Academy Cloud Foundations e demonstraram conhecimentos fundamentais em cloud computing pela Amazon Web Services.</p>
+                        <div class="mt-auto">
+                            <a href="https://www.credly.com/badges/a2b86e72-a16d-417f-9b7d-53f36562d3b4/public_url" class="text-purple-400 text-sm font-semibold hover:underline">Ver certificação →</a>
+                        </div>
+                    </div>
+                    <div class="bg-[#1E1E1E] rounded-2xl p-6 flex flex-col items-center text-center hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="500">
+                        <img src="https://images.credly.com/size/220x220/images/8d67bbf4-128b-4141-b5f1-1bc61bbfbaa6/image.png" class="rounded-xl mb-4 w-32 h-32 object-contain">
+                        <h3 class="text-2xl font-semibold mb-2">AWS Educate Introduction to Cloud 101</h3>
+                        <p class="text-gray-400 mb-4 text-sm">Portadores deste certificado concluíram com êxito o treinamento Cloud Computing 101, demonstrando capacidade prática para desenvolver aplicações em nuvem em ambiente virtual, domínio dos serviços fundamentais da AWS e compreensão das competências técnicas necessárias para atuação na área de cloud computing.</p>
+                        <div class="mt-auto">
+                            <a href="https://www.credly.com/badges/46c9304d-09cb-4dfb-bdf2-261267aee2f7/public_url" class="text-purple-400 text-sm font-semibold hover:underline">Ver certificação →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobremim" class="min-h-screen flex flex-col justify-center px-6 py-12 md:py-20">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-12 " data-aos="fade-up">
+                <div class="w-full md:w-3/5 text-gray-300 text-lg space-y-6 md:space-y-8">
+                    <h1 class="text-[2rem] font-semibold ">Olá!</h1>
+                    <p>Sou <span class="text-[#C084FC] font-semibold">Gabriel Philippe</span>, atualmente moro em Pompeia, São Paulo e atualmente estou na graduação de 
+                    <span class="text-[#C084FC] font-semibold">Análise e Desenvolvimento de Sistemas</span> na UNIMAR. Meus projetos incluem design de UX, lógica de programação e entre muito mais. Estar familiarizado com código me permite prototipar e validar experiências rapidamente.</p>
+                    <p>Se você estiver interessado, estarei sempre aberto para me dedicar a 
+                    expandir continuamente meu <span class="text-[#C084FC] font-semibold">repertório de conhecimentos técnicos, teóricos e os valores da empresa.</span></p>
+                    <p>No meu tempo livre, gosto de jogar video games, escutar música e passear. Estou sempre aberto a conhecer novos projetos, então sinta-se à vontade para entrar em contato.</p>
+                </div>
+                <div class="w-full md:w-2/5 flex justify-center" data-aos="fade-left">
+                    <img src="./images/gabriel.jpg" class="rounded-lg shadow-lg w-full max-w-xs object-cover">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const vantaEffect = VANTA.BIRDS({
+                el: "#vanta-container",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                backgroundColor: 0x101110,
+                color1: 0xb800ff,
+                birdSize: 1.60,
+                speedLimit: 2.00,
+                alignment: 100.00,
+                cohesion: 100.00,
+                quantity: 4.00
+            });
+
+            window.addEventListener('resize', () => {
+                if (vantaEffect) {
+                    vantaEffect.resize();
+                }
+            });
+
+            setTimeout(() => {
+                if (vantaEffect && vantaEffect.setOptions) {
+                    vantaEffect.setOptions({
+                        birdSize: 1.80,
+                        separation: 100.00,
+                        cohesion: 50.00
+                    });
+                }
+            }, 2000);
+        });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 800,
+            easing: 'ease-out-quad'
+        });
+    </script>
+</body>
+
+</html>

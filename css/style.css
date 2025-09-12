@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+        
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #101110;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #C084FC;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a855f7;
+}
+
+#vanta-bg {
+    position: relative;
+    overflow: hidden;
+}
+
+.vanta-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    z-index: 0;
+}
+    
+.overlay-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(16,17,16,0.95) 20%, rgba(16,17,16,0.85) 40%, rgba(16,17,16,0.7) 45%, rgba(16,17,16,0.4) 60%, transparent 70%);
+    z-index: 5;
+}
+    
+.content-overlay {
+    position: relative;
+    z-index: 10;
+
+    padding-left: 13rem;
+}
+    
+.linha {
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+    height: 2px;
+    background-color: #a0aec0; 
+    margin: 0 10px; 
+}
+        
+@media (max-width: 768px) {
+    .vanta-container {
+        width: 100%;
+    }
+    
+    .content-overlay {
+        width: 100%;
+        padding: 2rem;
+        padding-left: 2.5rem;
+    }
+    
+    .overlay-gradient {
+        background: linear-gradient(90deg, rgba(16,17,16,0.95) 0%, rgba(16,17,16,0.8) 40%, rgba(16,17,16,0.5) 65%, transparent 90%);
+    }
+}
